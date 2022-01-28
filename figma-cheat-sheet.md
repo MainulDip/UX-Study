@@ -44,4 +44,9 @@ O height hack
 > 0.001 px
 
 ### Design System Component:
->
+> Can create multiple component at a time.
+
+> Remove and pull deleted component:
+```txt
+right click on the component, go to main component, then restore the main component
+```

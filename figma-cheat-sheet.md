@@ -48,5 +48,16 @@ O height hack
 
 > Remove and pull deleted component:
 ```txt
-right click on the component, go to main component, then restore the main component
+right click on a instance of the component, go to main component, then restore the main component
 ```
+
+### Responsive Component:
+```xlm
+<container Horizontal="Fill Container || Fixed Width" Vertical= "Hug Content" >
+    <atom tab="resizing" 
+    Horizontal="Fill Container || Fixed Width" 
+    Vertical= "Hug Content" 
+    />
+</container>
+```
+> For vertical responsiveness, reverse the horizintal and vertical values

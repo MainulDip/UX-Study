@@ -21,6 +21,9 @@ Variants:
 # Button text =>
 # Pre title => uppercase, 12px, letter speacing * 2%
 ```
+> Batch Styler Plugin for changing multiple text style (Font Family, Size, Style, etc)
+
+> Choose 2 Font family max (Those complement each other and not too-much decorative)
 
 ### Color palette
 > Use Plugin like "color palettes"and or 'color designer' or something else
@@ -29,5 +32,15 @@ Variants:
 
 > Plus standard Red (Error), Green (Success), and Yellow (Warning) Base Colours for usage within Notifications, Badges, and Input Field Borders for example.
 
+> Black and varying shades of Grey and white for dark mode.
+
+> Black and varying shades of Grey
+
+> a healthy selection of Gradients
+
+### Elevations & Shadows:
+
+
+### Icons:
 
 

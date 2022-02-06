@@ -25,5 +25,9 @@ Variants:
 ### Color palette
 > Use Plugin like "color palettes"and or 'color designer' or something else
 
+> keep your Base Colours to a minimum where possible (ie; Primary, Secondary, and Tertiary).
+
+> Plus standard Red (Error), Green (Success), and Yellow (Warning) Base Colours for usage within Notifications, Badges, and Input Field Borders for example.
+
 
 

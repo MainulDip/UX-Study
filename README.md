@@ -26,9 +26,16 @@ Variants:
 > Choose 2 Font family max (Those complement each other and not too-much decorative)
 
 ### Color palette
+Palette Elements (Also give it a color name, like "Flemingo Red / Sky Blue" etc):
+- Primary
+- Secondary
+- Accent
+- Dark/Background with contrast
+- Gradient from Primary + Secondary/Accent Colors
+
 > Use Plugin like "color palettes"and or 'color designer' or something else
 
-> keep your Base Colours to a minimum where possible (ie; Primary, Secondary, and Tertiary).
+> keep your Base Colours to a minimum where possible (ie; Primary, Secondary, and TertiaryAccent , Dark elements/background).
 
 > Plus standard Red (Error), Green (Success), and Yellow (Warning) Base Colours for usage within Notifications, Badges, and Input Field Borders for example.
 

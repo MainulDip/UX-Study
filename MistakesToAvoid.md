@@ -29,3 +29,6 @@ Create a base structure first, make it component then
 6. Not giving variants text label same name
 
 Figma will look for naming of the label on the left side also 
+
+7. Not making interactive component
+To make varients interactive, link them first using handle, then interaction action will appear to select the behavour. Giving precise instruction, animation is also attachable for developers instructions

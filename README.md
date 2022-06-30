@@ -51,3 +51,29 @@ Palette Elements (Also give it a color name, like "Flemingo Red / Sky Blue" etc)
 ### Icons:
 
 
+### Spacing:
+Gutenberg Systematise Spacing:
+- leading: base-font * line-height
+- h1:
+ - line-height : 2 * leading
+ - margin-top : 3 * leading
+ - margin-bottom : 1 * leading
+
+- h2:
+ - line-height : 1.5 * leading
+ - margin-top : 2 * leading
+ - margin-bottom : 1 * leading
+
+- h3:
+ - line-height : 1.5 * leading
+ - margin-top : 2 * leading
+ - margin-bottom : 0 * leading
+
+- h4/h5/h6/p (like body p with bold ):
+ - line-height : 1 * leading
+ - margin-top : 1 * leading
+ - margin-bottom : 0 * leading
+
+ [  line-height: 1; // If font size is 10px, line height will be 10px, same for line-height: 1em/100%/10px ]
+
+

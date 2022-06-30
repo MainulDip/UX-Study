@@ -2,6 +2,12 @@
 
 Day-to-day shortcuts and tricks for rapid design and prototyping in Figma.
 
+
+### Shortcut Finder and grid show/hide:
+cmd/ctrl + / (slash) to search shortcuts
+
+grid show/hide: ctrl + g
+
 ### Vector:
 
 Vector Primitives

@@ -1,8 +1,8 @@
-## Frotenend Design System Overview
+## Design System Overviews:
 
 Theory and Workflow for the day to day front-end design. Also https://material.io/ for best practices
 
-### Typography
+### Typography:
 Differne important aspects
 > Golden Ration : 1.62 // difference between font-size lavel
 

@@ -14,3 +14,42 @@ Instead of raw color hex code, create color variables ( and all other variables,
 - Clicking on a blank canvas will show the option for variables. Upon clicking the variable panel will pop into the editor. Variables can also be created while clicking on style properties and pressing the `+` icon right of the `library` button.
 
 * All created variables can be accessed from anywhere in the project. 
+
+
+### Guides and Margins:
+While selecting a frame, right panel > Layout guide (at the bottom) and select either `grid` or `columns` or `rows`. For columns, set how many columns and set the margin (safe area for iOS)
+
+### Auto Layout:
+Select 2 elements and  click auto layout button (right icon of `layout` prop in right sidebar), or `shift + a`.
+
+Creating an auto layout will put those element in a `frame`. And positioning of the elements are done in the auto layout panel (under layout section)
+
+* Tricks: Sometimes auto layout doesn't provide desired result for fine tuned positioning. In that case wrap the element in a frame, position the element inside the `frame` to make sure it is in the correct position. And then make auto layout again. 
+
+### Creating Component (Reusable Element):
+Anything that will be copied should be made component first (outside of the frame). To create a component 
+    - create or move a or a group of elements outside of the working frame, and create component from the right panel.
+    - component variance can also be created form there
+    - keeping the actual component outside help us modify that component.
+    - After creating, assess the component from asset (left panel, next to file button), drag and drop it into the working frame for first time use. 
+
+A component can be a part of multiple component group together as a component. Like Header/Footer bar, usually every page has a header bar, footer bar, etc.
+
+### State Variants (Click/Hover):
+After creating a variance of the component, (change the desired appearance), then mouse drag the bottom middle circle of the default variance to the desired variance's. A pop-up will appear with all the options for the state variation, (Hover, Click, etc).
+
+### Click/Tap Actions (Navigation):
+While an element being selected, go to prototype tab, and add interaction. 
+There is a tap interaction and navigation interaction. Another frame can be set up as navigation destination. 
+
+### Move elements (top/back) in layers stacks:
+`]` - move the selected layer to the last layer of the stack
+
+
+### Helper plugins:
+- Iconify - to get quick icons
+- unplash - to get free images
+- Contrast: for checking contrast ratios, and it’s easy to use
+- Beautiful shadows
+- User profile | avatar
+- Magician for placeholder copy instead of lorem ipsum

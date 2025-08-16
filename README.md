@@ -41,9 +41,9 @@ Palette Elements (Also give it a color name, like "Flemingo Red / Sky Blue" etc)
 
 > Black and varying shades of Grey and white for dark mode.
 
-> Black and varying shades of Grey
-
 > a healthy selection of Gradients
+
+* Naming: Color should be named like `cyan500` for base and `cyan100` for lightest and `cyan900` is darkest. 
 
 ### Elevations & Shadows:
 

@@ -40,13 +40,31 @@ Design tokens can be different types
 - Grid
 
 * Design token naming convention for Defining/Creating 
-1. Raw Collection (Brand Collection) : Define the base variable (raw collection). Like, for color, `purple = #251256`. There are the direct reference to the actual values.
-2. Alias Collection : Then define `Alias` variable, pointing to that raw variable, like, `primaryDefault = purple`
+1. Raw Collection (Brand Collection/Primitive Tokens) : Define the base variable (raw collection). Like, for color, `purple = #251256`. There are the direct reference to the actual values.
+2. Alias Collection (Alias Tokens) : Then define `Alias` variable, pointing to that raw variable, like, `primaryDefault = purple`
     - The alias collection define the purpose binding with raw variable collection. Like Primary, Secondary, ect
     - The Material Design Theme (After building) comes with the alias defined already. But roles needs to be defined.
         - Some are already defined, ie, Success/Error/Waring etc. But Primary/Secondary/Tertiary/Custom need to be mapped with role
-3. Mapped Collection (Defines/Maps roles with the Alias): Define variables here pointing to the Alias variable. like, `headline = primaryDefault`
+3. Mapped Collection | Semantic Tokens (Defines/Maps roles with the Alias): Define variables here pointing to the Alias variable. like, `headline = primaryDefault`
     - Mapped collection are the final state, which should be used to build the actual ui (both design and development phases)
     - * The Material Design Theme needs to be mapped to with the actual role. 
 
 * Neutral colors are for Texts (Body, Headline)
+
+### Design WorkFlow:
+1. Create full wireframe
+2. Create full design
+    - Design Android, iOS and Web separately
+    - Use component library most of the time (Material Design, iOS UIKit, TailwindCSS, etc)
+    - Create some custom component if necessary
+3. Separate all unique components from the design
+4. Create full design by copying from those separated compotes
+5. Define all tokens and apply them to all those separated components
+    - changing the appearance of those separated components will changes all places those had been used in the full design
+
+
+### Development Workflow:
+1. Bring all assets and tokens to IDE
+2. Define the Architecture with minimal built in components
+3. Define all components
+4. Build the full app

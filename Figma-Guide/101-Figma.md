@@ -46,6 +46,16 @@ There is a tap interaction and navigation interaction. Another frame can be set 
 `]` - move the selected layer to the last layer of the stack
 
 
+### Things to have hand on experience and observation of examples:
+- Wireframe
+- Design system analysis
+    - how to tokens are defined
+    - how components are defined in various ui kits
+    - must check, Material UI Kit, iOS UiKit, and some others
+    - must check some readily available design system (search figma)
+
+
+
 ### Helper plugins:
 - Iconify - to get quick icons
 - unplash - to get free images
@@ -53,3 +63,10 @@ There is a tap interaction and navigation interaction. Another frame can be set 
 - Beautiful shadows
 - User profile | avatar
 - Magician for placeholder copy instead of lorem ipsum
+- Token Studio - For more complex token management (has github sync). this will give more control over managing complex variable tokens (instead of Figma variables)
+- Batch styler: to quickly style any uikit/design system based on changed tokens (by avoiding the one by one manual change) all at once
+- Zeplin: design to developer handover (documentation, components details/measurements, components usages, etc)
+- Simple sort: Adjust/order/re-order components based on criterial given to the plugin
+- Measure: for documentation of a design system (Measurements)
+- Design Lint: when run, it will provide all the error on all components, and provide option for fixing those all at once
+- Style organizer: similar to Design Lint. 

@@ -5,14 +5,18 @@ Secondary (Call to action / button / accent color) should be 10%
 
 ### Material Colors Roles:
 - `Surface` – A role used for backgrounds and large, low-emphasis areas of the screen. Use surface roles for more neutral backgrounds, and surface-container colors for components like cards, sheets, and dialogs.
-- `Primary`, `Secondary`, `Tertiary` – Accent color roles used to emphasize or de-emphasize foreground elements.
+- `Primary`, `Secondary/Accent`, `Tertiary` – Accent color roles used to emphasize or de-emphasize foreground elements.
+    - 
+    - 
+    - 
 - `Container` – Roles used as a fill color for foreground elements like buttons. They should not be used for text or icons.
 - `On` – Roles starting with this term indicate a color for text or icons on top of its paired parent color. For example, on primary is used for text and icons against the primary fill color.
 - `Variant` – Roles ending with this term offer a lower emphasis alternative to its non-variant pair. For example, outline variant is a less emphasized version of the outline color
 
-    `Primary` roles are for important actions and elements needing the most emphasis, like a FAB (Floating Action Button) to start a new message.
+* Material Design Color Roles (All these are accent colors)
+    `Primary` roles are for important actions and elements needing the most emphasis, `primary` is the brand identity color, usually more catchy and contrasty, used for `FAB`
 
-    `Secondary` roles are for elements that don’t need immediate attention and don’t need emphasis, like the selected state of a navigation icon or a dismissive button.
+    `Secondary` roles are for elements that don’t need immediate attention and don’t need emphasis, like the selected state of a navigation icon or a dismissive button. `secondary/accent` color is derived from primary color, but less contrasty, 
 
     `Tertiary` roles are for smaller elements that need special emphasis but don't require immediate attention, such as a badge or notification.
 
